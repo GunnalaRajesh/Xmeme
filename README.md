@@ -1,30 +1,47 @@
-# QMoney - Spring Boot Template
+Xmeme - Java Backend
+Overview
+This project includes a Java-based backend that manages meme data, allowing users to store and retrieve memes efficiently.
 
-This repository serves as a template for initializing and running Spring Boot projects.
+Features
+RESTful API for handling meme data
 
-## What's Included
+Database integration for persistent storage
 
-1. **Gradle Build System** - Created from [start.spring.io](https://start.spring.io/)
-2. **Plugins Integrated**
-   - SpotBugs (Static Code Analysis)
-   - Checkstyle (Code Formatting & Quality Checks)
-   - Jacoco (Code Coverage Reports)
-3. **Dependencies Pre-configured**
-   - MongoDB
-   - MySQL
-   - Redis
-4. **Docker Support**
-   - Dockerfile to start MongoDB server
-   - Runs the Spring Boot application within a container
+Request validation and error handling
 
----
+Supports operations like adding, retrieving, and listing memes
 
-## Usage
+Setup Instructions
+Clone the repository:
 
-### Building the Repository
+bash
+Copy
+Edit
+git clone https://github.com/GunnalaRajesh/Xmeme.git
+cd Xmeme
+Navigate to the Java backend directory.
 
-From the root directory of the repository:
+Build and run the application using a suitable build tool.
 
-1. **Build and Run Tests**
-   ```bash
-   ./gradlew build test
+API Endpoints
+POST /memes – Add a new meme
+
+GET /memes – Retrieve all memes
+
+GET /memes/{id} – Get a specific meme by ID
+
+Technologies Used
+Java
+
+REST API
+
+Database for storage
+
+This backend provides the necessary API functionality for managing meme-related data.
+
+
+
+
+
+
+
