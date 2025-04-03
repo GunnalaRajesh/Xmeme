@@ -1,47 +1,34 @@
-Xmeme - Java Backend
-Overview
-This project includes a Java-based backend that manages meme data, allowing users to store and retrieve memes efficiently.
+# Xmeme - Java Backend  
 
-Features
-RESTful API for handling meme data
+## Overview  
+This project includes a Java-based backend that manages meme data, allowing users to store and retrieve memes efficiently.  
 
-Database integration for persistent storage
+## Features  
+- RESTful API for handling meme data  
+- Database integration for persistent storage  
+- Request validation and error handling  
+- Supports operations like adding, retrieving, and listing memes  
 
-Request validation and error handling
+## Setup Instructions  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/GunnalaRajesh/Xmeme.git
+   cd Xmeme
+   
+2. Navigate to the Java backend directory.
 
-Supports operations like adding, retrieving, and listing memes
+3. Build and run the application using a suitable build tool.
 
-Setup Instructions
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/GunnalaRajesh/Xmeme.git
-cd Xmeme
-Navigate to the Java backend directory.
-
-Build and run the application using a suitable build tool.
-
-API Endpoints
+## API Endpoints
 POST /memes – Add a new meme
 
 GET /memes – Retrieve all memes
 
 GET /memes/{id} – Get a specific meme by ID
 
-Technologies Used
+## Technologies Used
 Java
 
 REST API
 
 Database for storage
-
-This backend provides the necessary API functionality for managing meme-related data.
-
-
-
-
-
-
-
